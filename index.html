@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vaishnavi Kawane Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Vaishnavi Kawane</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<button onclick="darkMode()">Dark Mode</button>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>Hello! My name is Vaishnavi Kawane. I am a BCA 1st year student. I am learning Web Technology, C++, and Java programming.</p>
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>C++</li>
+<li>Java</li>
+</ul>
+
+</section>
+
+<section id="projects">
+<h2>My Projects</h2>
+
+<div class="project">
+<h3>Student Result Program</h3>
+<p>C++ program to calculate student marks.</p>
+</div>
+
+<div class="project">
+<h3>Class Time Table</h3>
+<p>HTML webpage using table tag.</p>
+</div>
+
+<div class="project">
+<h3>Number Table Program</h3>
+<p>Java program to print multiplication tables.</p>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+
+<form onsubmit="return validateForm()">
+
+<input type="text" id="name" placeholder="Enter your name"><br><br>
+
+<input type="email" id="email" placeholder="Enter your email"><br><br>
+
+<textarea placeholder="Enter message"></textarea><br><br>
+
+<button type="submit">Send</button>
+
+</form>
+
+<p id="msg"></p>
+
+</section>
+
+<footer>
+<p>© 2026 Vaishnavi Kawane | BCA Student</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
